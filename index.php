@@ -23,6 +23,7 @@
       // login status of the person. In this case, we're handling the situation where they 
       // have logged in to the app.
       testAPI();
+      alert('A');
     } else if (response.status === 'not_authorized') {
     alert('not_authorized');
       // In this case, the person is logged into Facebook, but not into the app, so we call
@@ -61,6 +62,7 @@
     FB.api('/me', function(response) {
       console.log('Good to see you, ' + response.name + '.');
     });
+    document.write('Vimall');
   }
 </script>
 
