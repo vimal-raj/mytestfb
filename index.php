@@ -69,6 +69,6 @@
   Learn more about options for the login button plugin:
   /docs/reference/plugins/login/ -->
 
-<fb:login-button show-faces="true" width="200" max-rows="1"></fb:login-button>
+<fb:login-button show-faces="true" width="200" max-rows="1">Click</fb:login-button>
 </body>
 </html>
