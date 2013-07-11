@@ -62,7 +62,6 @@
     FB.api('/me', function(response) {
       console.log('Good to see you, ' + response.name + '.');
     });
-    document.write('Vimall');
   }
 </script>
 
