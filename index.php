@@ -55,7 +55,10 @@
   // Here we run a very simple test of the Graph API after login is successful. 
   // This testAPI() function is only called in those cases. 
   function testAPI() {
-    
+    FB.getAuthResponse(function response()
+    {
+    alert(response);
+    });
   }
 </script>
 
